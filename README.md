@@ -1,6 +1,6 @@
 # 🧬 Protein Structure Visualizer
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/protein-visualizer/blob/main/protein_visualizer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/happyprotein/protein-visualizer/blob/main/protein_visualizer.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-orange?logo=google-colab)
