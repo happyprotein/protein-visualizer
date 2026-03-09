@@ -1,0 +1,113 @@
+# GitHub Setup Guide — Protein Structure Visualizer
+
+Follow these steps to publish the notebook to GitHub so anyone can open it in Colab.
+
+─────────────────────────────────────────────
+STEP 1 — Create the GitHub repository
+─────────────────────────────────────────────
+
+1. Go to https://github.com/new
+2. Repository name:   protein-visualizer
+3. Description:       Interactive protein structure viewer and animation exporter for Google Colab
+4. Set to:            ✅ Public
+5. Check:             ✅ Add a README file  (we will replace it)
+6. Click:             [Create repository]
+
+
+─────────────────────────────────────────────
+STEP 2 — Upload files
+─────────────────────────────────────────────
+
+Option A — Via the GitHub web interface (no Git required):
+
+  1. On your new repository page click [Add file] → [Upload files]
+  2. Drag and drop ALL of these files:
+       • protein_visualizer.ipynb
+       • README.md
+       • requirements.txt
+       • LICENSE
+       • .gitignore
+  3. Commit message:  "Initial release — interactive protein visualizer"
+  4. Click [Commit changes]
+
+Option B — Via Git on your computer:
+
+  git clone https://github.com/YOUR_USERNAME/protein-visualizer.git
+  cd protein-visualizer
+  # Copy all files into this folder, then:
+  git add .
+  git commit -m "Initial release — interactive protein visualizer"
+  git push origin main
+
+
+─────────────────────────────────────────────
+STEP 3 — Update YOUR_USERNAME in README.md
+─────────────────────────────────────────────
+
+Open README.md (either on GitHub directly or locally) and replace every
+occurrence of YOUR_USERNAME with your actual GitHub username.
+
+There are 4 places:
+  Line 3  — Colab badge URL
+  Line 3  — Colab badge link
+  Near end — GitHub link
+  Near end — Issues link
+
+
+─────────────────────────────────────────────
+STEP 4 — Add a repository topic (makes it discoverable)
+─────────────────────────────────────────────
+
+On your repository page:
+  1. Click the ⚙️ gear icon next to "About" (top right of the repo)
+  2. Add these topics:
+       bioinformatics
+       protein-structure
+       molecular-visualization
+       google-colab
+       python
+       structural-biology
+       py3dmol
+       biopython
+  3. Add a description:
+       "Interactive 3D protein structure viewer and rotation animation exporter for Google Colab"
+  4. Add your website if you have one
+  5. Click [Save changes]
+
+
+─────────────────────────────────────────────
+STEP 5 — Pin the Colab badge link
+─────────────────────────────────────────────
+
+The Colab badge in README.md already links to your notebook.
+Test it by visiting:
+
+  https://colab.research.google.com/github/YOUR_USERNAME/protein-visualizer/blob/main/protein_visualizer.ipynb
+
+If it opens correctly in Colab, you're done.
+
+
+─────────────────────────────────────────────
+STEP 6 — Share on LinkedIn
+─────────────────────────────────────────────
+
+See LINKEDIN_POST.txt for two ready-to-use post options.
+
+Before posting:
+  • Replace YOUR_USERNAME in all URLs
+  • Export a GIF from the notebook (try 6LU7, Rainbow, black bg, 5s/15fps)
+    and attach it as the post image
+  • Pin the Colab link as your first comment
+
+
+─────────────────────────────────────────────
+OPTIONAL — Enable GitHub Pages (nice project page)
+─────────────────────────────────────────────
+
+1. Repository → Settings → Pages
+2. Source: Deploy from a branch
+3. Branch: main / (root)
+4. Save
+
+GitHub will publish your README as a webpage at:
+  https://YOUR_USERNAME.github.io/protein-visualizer/
